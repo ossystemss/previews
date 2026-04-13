@@ -4,105 +4,182 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Houston Heating And Air Conditioning | Houston Hvac And Plumbing</title>
-
-<!-- OG Tags — these make the link preview look great on phones -->
-<meta property="og:title" content="Houston Heating And Air Conditioning | Houston's Most Trusted HVAC & Plumbing Experts">
-<meta property="og:description" content="Fast, reliable heating, cooling, and plumbing services for Houston homes and businesses.">
+<meta property="og:title" content="Houston Heating And Air Conditioning | Houston's Trusted HVAC Experts">
+<meta property="og:description" content="Fast, reliable service across Houston and surrounding areas.">
 <meta property="og:image" content="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&q=80">
-<meta property="og:url" content="https://preview.youragency.com/houston-heating-and-air-conditioning">
+<meta property="og:url" content="https://ossystemss.github.io/previews//houston-heating-and-air-conditioning">
 <meta property="og:type" content="website">
-
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #1a1a1a; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color:#1a1a1a; }
 
-  nav { background: #1a1a2e; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; }
-  nav .logo { color: white; font-size: 20px; font-weight: 700; }
-  nav .nav-cta { background: #e94560; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 14px; }
+/* NAV */
+nav { background:#0a0a0a; padding:14px 24px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; }
+.nav-logo { color:white; font-size:18px; font-weight:700; }
+.nav-phone { background:#e63946; color:white; padding:10px 20px; border-radius:6px; text-decoration:none; font-weight:600; font-size:14px; display:flex; align-items:center; gap:6px; }
 
-  .hero { position: relative; min-height: 520px; display: flex; align-items: center; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); overflow: hidden; }
-  .hero-bg { position: absolute; inset: 0; background-image: url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&q=80'); background-size: cover; background-position: center; opacity: 0.25; }
-  .hero-content { position: relative; max-width: 680px; padding: 60px 32px; }
-  .hero h1 { font-size: clamp(32px, 5vw, 52px); font-weight: 800; color: white; line-height: 1.1; margin-bottom: 16px; }
-  .hero h1 span { color: #e94560; }
-  .hero p { font-size: 18px; color: rgba(255,255,255,0.8); margin-bottom: 28px; line-height: 1.5; }
-  .hero-cta { display: inline-block; background: #e94560; color: white; padding: 16px 32px; border-radius: 8px; font-size: 18px; font-weight: 700; text-decoration: none; }
-  .trust-bar { margin-top: 20px; color: rgba(255,255,255,0.6); font-size: 14px; }
+/* HERO */
+.hero { position:relative; min-height:560px; display:flex; align-items:center; background:#0a0a0a; overflow:hidden; }
+.hero-bg { position:absolute; inset:0; background-image:url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&q=80'); background-size:cover; background-position:center; opacity:0.3; }
+.hero-content { position:relative; max-width:700px; padding:60px 32px; }
+.hero-badge { display:inline-flex; align-items:center; gap:8px; background:rgba(230,57,70,0.15); border:1px solid rgba(230,57,70,0.4); border-radius:40px; padding:8px 16px; margin-bottom:20px; }
+.hero-badge .stars { color:#f5a623; font-size:16px; }
+.hero-badge span { color:rgba(255,255,255,0.9); font-size:13px; font-weight:500; }
+.hero h1 { font-size:clamp(28px,5vw,50px); font-weight:800; color:white; line-height:1.1; margin-bottom:16px; }
+.hero h1 em { color:#e63946; font-style:normal; }
+.hero p { font-size:18px; color:rgba(255,255,255,0.75); margin-bottom:28px; line-height:1.6; max-width:560px; }
+.hero-btns { display:flex; gap:12px; flex-wrap:wrap; }
+.btn-primary { display:inline-block; background:#e63946; color:white; padding:16px 32px; border-radius:8px; font-size:17px; font-weight:700; text-decoration:none; }
+.btn-secondary { display:inline-block; background:rgba(255,255,255,0.1); color:white; padding:16px 32px; border-radius:8px; font-size:17px; font-weight:600; text-decoration:none; border:1px solid rgba(255,255,255,0.2); }
+.trust-strip { background:#e63946; padding:12px 24px; display:flex; gap:32px; justify-content:center; flex-wrap:wrap; }
+.trust-strip span { color:white; font-size:13px; font-weight:600; display:flex; align-items:center; gap:6px; }
 
-  .stars { color: #f5a623; font-size: 22px; }
-  .reviews-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 40px; padding: 8px 16px; margin-bottom: 24px; }
-  .reviews-badge span { color: white; font-size: 14px; font-weight: 500; }
+/* SERVICES */
+.services { padding:72px 24px; background:#f8f9fa; text-align:center; }
+.services h2 { font-size:34px; font-weight:800; margin-bottom:8px; }
+.services .sub { color:#666; margin-bottom:48px; font-size:16px; }
+.services-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:24px; max-width:860px; margin:0 auto; }
+.service-card { background:white; border-radius:12px; padding:32px 24px; box-shadow:0 2px 16px rgba(0,0,0,0.06); text-align:left; border-top:3px solid #e63946; }
+.service-icon { font-size:28px; margin-bottom:14px; }
+.service-card h3 { font-size:18px; font-weight:700; margin-bottom:8px; }
+.service-card p { color:#666; font-size:14px; line-height:1.6; }
 
-  .services { padding: 64px 24px; background: #f8f9fa; text-align: center; }
-  .services h2 { font-size: 32px; font-weight: 800; margin-bottom: 8px; }
-  .services .sub { color: #666; margin-bottom: 40px; font-size: 16px; }
-  .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; max-width: 800px; margin: 0 auto; }
-  .service-card { background: white; border-radius: 12px; padding: 28px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
-  .service-icon { font-size: 32px; margin-bottom: 12px; }
-  .service-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
-  .service-card p { color: #666; font-size: 14px; }
+/* REVIEWS */
+.reviews { padding:72px 24px; background:white; text-align:center; }
+.reviews h2 { font-size:34px; font-weight:800; margin-bottom:8px; }
+.reviews .sub { color:#666; margin-bottom:48px; }
+.reviews-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; max-width:900px; margin:0 auto 40px; }
+.review-card { background:#f8f9fa; border-radius:12px; padding:24px; text-align:left; }
+.review-stars { color:#f5a623; font-size:16px; margin-bottom:10px; }
+.review-text { font-size:14px; color:#444; line-height:1.6; margin-bottom:12px; font-style:italic; }
+.review-author { font-size:13px; font-weight:600; color:#1a1a1a; }
+.review-cta { display:inline-block; background:#0a0a0a; color:white; padding:14px 32px; border-radius:8px; font-size:15px; font-weight:600; text-decoration:none; }
 
-  .cta-section { background: #1a1a2e; padding: 64px 24px; text-align: center; color: white; }
-  .cta-section h2 { font-size: 36px; font-weight: 800; margin-bottom: 12px; }
-  .cta-section p { color: rgba(255,255,255,0.7); margin-bottom: 28px; font-size: 16px; }
-  .big-cta { display: inline-block; background: #e94560; color: white; padding: 18px 40px; border-radius: 8px; font-size: 20px; font-weight: 700; text-decoration: none; }
-  .phone-num { display: block; margin-top: 16px; color: rgba(255,255,255,0.5); font-size: 14px; }
+/* FAQ */
+.faq { padding:72px 24px; background:#f8f9fa; }
+.faq h2 { font-size:34px; font-weight:800; text-align:center; margin-bottom:48px; }
+.faq-grid { max-width:760px; margin:0 auto; display:grid; gap:16px; }
+.faq-item { background:white; border-radius:10px; padding:24px; }
+.faq-item h4 { font-size:16px; font-weight:700; margin-bottom:8px; }
+.faq-item p { font-size:14px; color:#666; line-height:1.6; }
 
-  footer { background: #111; color: rgba(255,255,255,0.4); text-align: center; padding: 20px; font-size: 13px; }
+/* CTA */
+.cta { background:#0a0a0a; padding:80px 24px; text-align:center; }
+.cta h2 { font-size:36px; font-weight:800; color:white; margin-bottom:12px; }
+.cta p { color:rgba(255,255,255,0.7); margin-bottom:32px; font-size:16px; max-width:500px; margin-left:auto; margin-right:auto; }
+.cta-phone { display:inline-block; background:#e63946; color:white; padding:18px 48px; border-radius:8px; font-size:22px; font-weight:800; text-decoration:none; margin-bottom:16px; }
+.cta-sub { color:rgba(255,255,255,0.5); font-size:13px; }
+
+/* FOOTER */
+footer { background:#111; color:rgba(255,255,255,0.4); text-align:center; padding:24px; font-size:13px; }
 </style>
 </head>
 <body>
 
 <nav>
-  <div class="logo">Houston Heating And Air Conditioning</div>
-  <a href="tel:+1 281-598-7907" class="nav-cta">Call Now</a>
+  <div class="nav-logo">Houston Heating And Air Conditioning</div>
+  <a href="tel:+1 254-277-9868" class="nav-phone">📞 Call Now</a>
 </nav>
 
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-content">
-    <div class="reviews-badge">
+    <div class="hero-badge">
       <span class="stars">★★★★★</span>
-      <span>5 Stars · 10+ Reviews</span>
+      <span>5 Stars · 12 Google Reviews</span>
     </div>
-    <h1>Houston's Most Trusted HVAC & Plumbing Experts</h1>
-    <p>Fast, reliable heating, cooling, and plumbing services for Houston homes and businesses.</p>
-    <a href="tel:+1 281-598-7907" class="hero-cta">Get a Free Quote</a>
-    <p class="trust-bar">5-Star Rated · Licensed & Insured · Serving Houston Since Day One</p>
+    <h1>Houston's Trusted HVAC Experts</h1>
+    <p>Fast, reliable service across Houston and surrounding areas.</p>
+    <div class="hero-btns">
+      <a href="tel:+1 254-277-9868" class="btn-primary">📞 Call +1 254-277-9868</a>
+      <a href="#contact" class="btn-secondary">Get Free Quote</a>
+    </div>
   </div>
 </section>
 
+<div class="trust-strip">
+  <span>✓ Licensed & Insured</span>
+  <span>✓ Serving Houston & Surrounding Areas</span>
+  <span>✓ 24/7 Emergency Service</span>
+  <span>✓ Free Estimates</span>
+</div>
+
 <section class="services">
   <h2>Our Services</h2>
-  <p class="sub">Professional HVAC and plumbing services across Houston</p>
+  <p class="sub">Professional HVAC and plumbing services you can count on</p>
   <div class="services-grid">
     <div class="service-card">
       <div class="service-icon">🔧</div>
       <h3>AC Repair & Installation</h3>
-      <p>Fast, reliable service from licensed technicians.</p>
+      <p>Fast, reliable service from licensed technicians. We get the job done right the first time.</p>
     </div>
     <div class="service-card">
       <div class="service-icon">❄️</div>
-      <h3>Heating System Services</h3>
-      <p>Expert installation and repair, done right the first time.</p>
+      <h3>Heating & Furnace Service</h3>
+      <p>Expert installation and repair for all makes and models. Satisfaction guaranteed.</p>
     </div>
     <div class="service-card">
       <div class="service-icon">🚨</div>
-      <h3>Emergency Plumbing Repair</h3>
-      <p>24/7 emergency response when you need us most.</p>
+      <h3>Emergency HVAC Service</h3>
+      <p>Available 24/7 for emergency calls. When you need us most, we're there.</p>
     </div>
   </div>
 </section>
 
-<section class="cta-section">
-  <h2>Ready to Get More Jobs?</h2>
-  <p>Call or text us today — no obligation, no pressure.</p>
-  <a href="tel:+1 281-598-7907" class="big-cta">Get a Free Quote</a>
-  <span class="phone-num">+1 281-598-7907</span>
+<section class="reviews">
+  <h2>What Our Customers Say</h2>
+  <p class="sub">5 stars · 12 verified Google reviews</p>
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Called in the morning and they had someone out by noon. Fixed the problem fast and the price was fair. Will definitely use again."</p>
+      <div class="review-author">— Google Review</div>
+    </div>
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Very professional and knowledgeable. Explained everything clearly and didn't try to upsell me on things I didn't need."</p>
+      <div class="review-author">— Google Review</div>
+    </div>
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Best service in Houston. Showed up on time, clean, and professional. My go-to from now on."</p>
+      <div class="review-author">— Google Review</div>
+    </div>
+  </div>
+  <a href="#contact" class="review-cta">Leave Us a Review ⭐</a>
+</section>
+
+<section class="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-grid">
+    <div class="faq-item">
+      <h4>Do you offer free estimates?</h4>
+      <p>Yes — we provide free, no-obligation estimates for all jobs. Call us or fill out the form and we'll get back to you same day.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Are you licensed and insured?</h4>
+      <p>Absolutely. We are fully licensed and insured in the state of Texas. Your home and safety are our top priority.</p>
+    </div>
+    <div class="faq-item">
+      <h4>What areas do you serve?</h4>
+      <p>We serve Houston and all surrounding areas in the greater Houston metro. Call us to confirm service in your area.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Do you offer emergency services?</h4>
+      <p>Yes — we offer 24/7 emergency service. Don't wait in the heat or cold, call us anytime.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <h2>Ready to Book a Service?</h2>
+  <p>Call or text us now for a free estimate. We respond fast and show up on time.</p>
+  <a href="tel:+1 254-277-9868" class="cta-phone">+1 254-277-9868</a>
+  <p class="cta-sub">Tap to call · Available 24/7 · Free estimates</p>
 </section>
 
 <footer>
-  &copy; 2025 Houston Heating And Air Conditioning ·  · Built by OS Systems
+  © 2025 Houston Heating And Air Conditioning ·  · Site by OS Systems
 </footer>
 
 </body>
